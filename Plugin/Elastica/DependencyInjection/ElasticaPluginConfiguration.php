@@ -37,7 +37,7 @@ class ElasticaPluginConfiguration extends BaseConfiguration
                 ->end()
                 ->enumNode('version')
                     ->values(['6', '7'])
-                    ->defaultValue('6')
+                    ->defaultValue('7')
                 ->end()
                 ->arrayNode('cluster')
                     ->prototype('array')
